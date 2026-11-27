@@ -1,13 +1,16 @@
 # ほっぷtool SRW A P（スーパーロボット大戦A ポータブル BGM 差し替えツール）
 
+日本語 | [English](README_en.md)
+
 スーパーロボット大戦A ポータブル の BGM を、手持ちの音源に差し替える Android アプリです。
 PPSSPP などで遊ぶための ISO / CSO を、スマホだけで書き換えられます。
 
 - ダウンロード: [SRWAP_BGMtool.apk](SRWAP_BGMtool.apk)
 - **MX ポータブル版**: [SRWMXP_BGMtool.apk](SRWMXP_BGMtool.apk)（ほっぷtool SRW MX P。使い方は A 版と同じです → [MX ポータブル版について](#mx-ポータブル版について)）
 - **α3（PS2）版**: [SRWA3_BGMtool.apk](SRWA3_BGMtool.apk)（ほっぷtool SRW α3 → [α3 版について](#α3-版について)）
-- **Windows 版（β版）**: [HopTool_Windows_beta.zip](HopTool_Windows_beta.zip)（A P・MX P・α3 を 1 つにまとめたもの → [Windows 版について](#windows-版β版について)）
+- **Windows 版**: [HopTool_Windows.zip](HopTool_Windows.zip)（A P・MX P・α3 を 1 つにまとめたもの → [Windows 版について](#windows-版について)）
 - 対応: Android 7.0 以上（arm64-v8a / armeabi-v7a / x86_64）
+- 端末・PC の言語が日本語以外のときは、英語で表示されます
 
 > **ゲームのデータは含みません。** 自分で持っているソフトから吸い出した ISO / CSO に対して、
 > 個人で楽しむ範囲で使ってください。
@@ -77,16 +80,15 @@ NetherSX2 などの PS2 エミュレーターで遊ぶための ISO を書き換
 - 曲を選ばずに「ISO に書き込む」を押すと、書き込み済みの曲はそのままで、再生のしくみと起動ロゴだけを最新にします。アプリを新しくしたら、一度これをしてください
 - ISO が 1 層 DVD の大きさ（4.38 GB）を超えると、エミュレーターで曲が読めないことがあります。そのときはもう一度「ISO に書き込む」を押すと、使っていない古い曲の分を詰めて小さくします
 
-## Windows 版（β版）について
+## Windows 版について
 
 A P・MX P・α3 の 3 つを 1 つにまとめた Windows 用のアプリです。ISO / CSO を開くと、どのゲームかを自動で判別します。
 
-- ダウンロード: [HopTool_Windows_beta.zip](HopTool_Windows_beta.zip)
+- ダウンロード: [HopTool_Windows.zip](HopTool_Windows.zip)
 - 対応: Windows 10 / 11（64 ビット）
 - インストールは不要です。zip を**全部展開**して、展開したフォルダの `HopTool.exe` をダブルクリックしてください（Java も中に入っています）
 - 画面と操作は Android 版と同じです。編集画面はマウスで操作します（何もない所をドラッグ: 曲が流れる、Ctrl + ホイール: 拡大縮小、スペース: 再生 / 停止）
 - 起動時のロゴは、書き込むたびに「ほっぷmod」のロゴに差し替わります
-- β版です。動かないところや、おかしなところがあれば教えてください
 
 ## 注意
 
